@@ -5,7 +5,7 @@ import fileUpload from "express-fileupload"
 
 const PORT = 5000;
 const app = express();
-const DB_URL = `mongodb+srv://Developer:Dennis87@cluster0.jgikcbf.mongodb.net/?retryWrites=true&w=majority`
+const DB_URL = `mongodb+srv://<NAME>:<PASS>@cluster0.jgikcbf.mongodb.net/?retryWrites=true&w=majority`
 
 app.use(express.json())
 app.use(express.static('static'))
